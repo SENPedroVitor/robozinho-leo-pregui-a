@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Pastas de trabalho e saída de dados locais
+PDFs_Juntados/
+Extraidos/
+Compactados/
+Planilhas/
+Documentos/
+Imagens/
+Instaladores/
+Outros/
+PDFs/
+GUIA IR/
+CSLL/
+
+# Arquivos temporários locais
+*.zip
+*.pdf
+testar_robozinho.py
