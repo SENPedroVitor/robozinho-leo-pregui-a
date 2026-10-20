@@ -28,12 +28,24 @@ Ao abrir o robô com 2 cliques, ele mostra um menu simples na tela:
  [2] 📁 Organizar ESTA PASTA do Robozinho
  [3] 📂 Escolher OUTRA pasta (digite ou arraste a pasta)
  [4] 📑 Apenas Extrair ZIPs e Juntar PDFs (fiscal/contábil)
+ [5] ✂️  Separar PDF gigante (Split por CNPJ, página ou bloco)
  [0] ❌ Sair
 ============================================================
 ```
 
 - **Opção 1 (Mais prática):** Ele varre direto sua pasta **Downloads**, descompacta os ZIPs que você acabou de baixar e junta os PDFs de cada cliente automaticamente!
-- **Opção 2:** Organiza a pasta onde o robô está instalado.
+- **Opção 5 (Separador/Split):** Se você tem um PDF gigante com várias declarações ou contracheques misturados, o robô fatia e separa em um arquivo para cada cliente/CNPJ!
+
+---
+
+## ✂️ Como Funciona o Separador de PDFs (Split)?
+
+O robô oferece 3 modos de separação:
+1. **Inteligente (Recomendado):** O robô lê o texto de cada folha do PDF e identifica **CNPJ**, **Código do Cliente** ou **Razão Social**, agrupando as páginas certas de cada empresa automaticamente (ex: `CNPJ_12_345_678_0001_90.pdf`).
+2. **Página por Página:** Cada página do PDF vira um arquivo separado.
+3. **Por Bloco de Páginas:** Para relatórios onde cada cliente tem exatamente 2 ou 3 páginas fixas.
+
+Todos os PDFs separados são guardados com segurança na pasta `PDFs_Separados/`.
 
 ---
 
